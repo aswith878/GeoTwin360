@@ -1,0 +1,21 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Start GeoTwin 360",
+      "type": "npm",
+      "script": "dev",
+      "isBackground": true,
+      "problemMatcher": [],
+      "group": { "kind": "build", "isDefault": true },
+      "presentation": { "reveal": "always", "panel": "dedicated" }
+    },
+    {
+      "label": "Test GeoTwin 360",
+      "type": "npm",
+      "script": "test",
+      "problemMatcher": [],
+      "group": "test"
+    }
+  ]
+}
